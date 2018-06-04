@@ -10,7 +10,11 @@ echo "4-Division"
 echo "5-Carre"
 echo "6-Cube"
 echo "7-Factorial"
-echo "8-Racine"
+echo "8-COMPARAISION"
+echo "9-Racine"
+echo "10-COS"
+echo "11-SIN"
+
 
 
 echo "Cliquer sur n'importe quel button pour quitter"
@@ -105,6 +109,7 @@ factorial()
  
 echo "le resultat est:"
 factorial $x
+echo "***********************************************************************************************************************************"
 
 elif test $ch -eq 8
 then 
@@ -118,6 +123,7 @@ echo $x "plus petit que" $y
 else
 echo $x "plus grand que" $y
 fi 
+echo "***********************************************************************************************************************************"
 
 elif test $ch -eq 9  
 then 
@@ -127,6 +133,7 @@ read -p "Entrer le nombre" m
 echo "sqrt($m)" |bc -l
 }
 Racine
+echo "***********************************************************************************************************************************"
 
 elif test $ch -eq 10
 then
@@ -136,6 +143,7 @@ read -p "Entrer le nombre " n
 echo "c($n)"|bc -l
 }
 COS
+echo "***********************************************************************************************************************************"
 
 elif test $ch -eq 11
 then
@@ -145,6 +153,7 @@ read -p "Entrer le nombre " n
 echo "S($n)"|bc -l
 }
 SIN
+echo "***********************************************************************************************************************************"
 
 
 
